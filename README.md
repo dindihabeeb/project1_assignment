@@ -44,7 +44,7 @@ e.g., gcc main.s -o main
 
 ## Question 4 
 
-- The data flow starts with the **TMP36 sensor** measuring the physical room heat and translating it into a raw analog voltage signal. That analog signal flows into the Arduino's **A0 pin** , where the board translates it into a digital number that C++ code can actually read. The code then converts that number into degrees Celsius and checks if it has crossed your **28°C** threshold. When the threshold is crossed, the code makes a decision and sends a digital HIGH signal out of **Pin 2** , which acts as a trigger to turn on the actuator (piezo-buzzer) and make a sound. 
+- The data flow starts with the **TMP36 sensor** measuring the physical room heat and translating it into a raw analog voltage signal. That analog signal flows into the Arduino's **A0 pin** , where the board translates it into a digital number that C++ code can actually read. The code then converts that number into degrees Celsius and checks if it has crossed the **28°C** threshold. When the threshold is crossed, the code makes a decision and sends a digital HIGH signal out of **Pin 2** , which acts as a trigger to turn on the actuator (piezo-buzzer) and make a sound. 
 
 
 ## Question 5 
